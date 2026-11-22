@@ -1,0 +1,15 @@
+{
+  "tiktok_user": "твой_ник",
+  "round_seconds": 45,
+  "round_seconds_long_queue": 30,
+  "start_hp": 100,
+  "tiers": [
+    {"min": 1,   "queue": true, "heal": 10},
+    {"min": 5,   "queue": true, "heal": 25, "bonus_hp": 20},
+    {"min": 30,  "super": 1},
+    {"min": 100, "heavy": true, "rage_sec": 10},
+    {"min": 500, "queue_jump": 3, "full_heal": true, "super": 1}
+  ],
+  "likes_for_hype": 100,
+  "name_blacklist": []
+}
